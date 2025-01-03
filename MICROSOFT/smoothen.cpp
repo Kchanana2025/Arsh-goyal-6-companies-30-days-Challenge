@@ -1,8 +1,7 @@
 class Solution
 {
 public:
-public:
-    std::vector<std::vector<int>> imageSmoother(std::vector<std::vector<int>> &img)
+    vector<std::vector<int>> imageSmoother(std::vector<std::vector<int>> &img)
     {
         int m = img.size();
         int n = img[0].size();
